@@ -7,7 +7,27 @@
 }
 body {
   display: flex;
+  background-color: cadetblue;
+  font-family: "Gill Sans Extrabold", sans-serif;
 }
+
+
+h1 {
+  color:bisque
+}
+
+h3 {
+  color:bisque
+}
+
+.galleryFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+  width: auto;
+}
+
 #staffGallery{
   width: 70vw;
   display: inherit;
@@ -17,4 +37,31 @@ body {
   width: 100%;
   height: auto;
   height: 300px;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  height: auto;
+  /* padding: 10px; */
+  border-radius: 10px;
+  margin: 10px;
+  p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #logoBar {
+    height: auto;
+  }
+  hr {
+    width: 100%;
+  }
 }
