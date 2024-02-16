@@ -7,19 +7,19 @@
 }
 body {
   display: flex;
-  background-color:rgb(34, 34, 82);
+  background-color:rgb(22, 33, 53);
   font-family: "Gill Sans Extrabold", sans-serif;
 }
 
 
 h1 {
   text-align: center;
-  color:blanchedalmond
+  color:rgb(221,181,55)
 }
 
 h3 {
   text-align: center;
-  color:blanchedalmond
+  color:rgb(221,181,55)
 }
 
 .galleryFlex {
